@@ -6,6 +6,7 @@ Um projeto onde construí uma aplicação de cadastro de talkers (palestrantes) 
 ## Stacks e habilidades utilizadas
 - API Rest
 - NodeJs
+- Express
 - MySQL
 - Thunder Client
 - Docker
