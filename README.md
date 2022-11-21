@@ -13,14 +13,14 @@ Um projeto onde construí uma aplicação de cadastro de talkers (palestrantes) 
 
 ## Como testar localmente:
 1. Clone o repositório `git@github.com:lcoelhox/Talker-Manager-Project.git`
-2. Certifique-se que o node está na versão 16 ou superior, com comando: node -v
-3. Se não estiver na versão 16 basta usar o comando: nvm use 16
-4. Em seguida o comando: npm install
+2. Certifique-se que o node está na versão 16 ou superior, com comando: `node -v`
+3. Se não estiver na versão 16 basta usar o comando: `nvm use 16`
+4. Em seguida o comando: `npm install`
 
 ## Como testar com Docker:
 1. Clone o repositório `git@github.com:lcoelhox/Talker-Manager-Project.git`
-2. Certifique-se que o node está na versão 16 ou superior, com comando: node -v
-3. Se não estiver na versão 16 basta usar o comando: nvm use 16
+2. Certifique-se que o node está na versão 16 ou superior, com comando: `node -v`
+3. Se não estiver na versão 16 basta usar o comando: `nvm use 16`
 
 - Antes de começar, seu docker-compose precisa estar na versão 1.29 ou superior. Veja aqui ou na documentação como instalá-lo. No primeiro artigo, você pode substituir onde está com 1.26.0 por 1.29.2.
 
