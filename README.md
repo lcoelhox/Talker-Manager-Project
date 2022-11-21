@@ -17,9 +17,13 @@ Um projeto onde construí uma aplicação de cadastro de talkers (palestrantes) 
 4. Em seguida o comando: npm install
 
 ## Como testar com Docker:
+1. Clone o repositório git@github.com:lcoelhox/Talker-Manager-Project.git
+2. Certifique-se que o node está na versão 16 ou superior, com comando: node -v
+3. Se não estiver na versão 16 basta usar o comando: nvm use 16
+
 - Antes de começar, seu docker-compose precisa estar na versão 1.29 ou superior. Veja aqui ou na documentação como instalá-lo. No primeiro artigo, você pode substituir onde está com 1.26.0 por 1.29.2.
 
-1. Rode os serviços node e db com o comando: docker-compose up -d.
+4. Rode os serviços node e db com o comando: docker-compose up -d.
 
 Lembre-se de parar o mysql se estiver usando localmente na porta padrão (3306), ou adapte, caso queria fazer uso da aplicação em containers;
 Esses serviços irão inicializar um container chamado store_manager e outro chamado store_manager_db;
@@ -30,7 +34,7 @@ Opção 1: Use o comando docker-compose run node npm test, ou para acessar o con
 Opção 2: Use o comando docker exec -it store_manager bash e siga o passo abaixo.
 
 Ele te dará acesso ao terminal interativo do container criado pelo compose, que está rodando em segundo plano.
-2. Instale as dependências [Caso existam] com npm install
+5. Instale as dependências [Caso existam] com npm install
 
 ## Fontes de consultas:
 - https://nodejs.org/en/docs/
